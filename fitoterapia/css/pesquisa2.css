@@ -1,0 +1,131 @@
+*{
+	padding:0;
+	margin:0;
+	list-style: none;
+	text-decoration: none;
+}
+textarea:focus, input:focus, select:focus, button:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+.menu a{
+	text-decoration: none;
+	color:#fff;
+}
+.container{
+	width: 100%;
+	min-height: 100vh;
+	background-color: #191919;
+}
+.menu{
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+	background-color: #191919;
+	color:#fff;
+	font-family: Arial;
+	font-size: 20px;
+}
+.menu ul{
+	display: flex;
+}
+.menu li{
+	margin-right: 40px;
+	color:#fff;
+}
+/*.pesquisa_area{
+	display: flex;
+	width: 400px;
+	height: 80px;
+	margin:auto;
+	margin-top: 40px;
+	background-color: white;
+}*/
+.pesquisa_area{
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	margin: auto;
+	margin-top: 10px;
+	width: 100%;
+	height: 150px;
+	padding:0 20 0 20;
+}
+.pesquisa_int{
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	margin: auto;
+	width: 400px;
+	height: 150px;
+}
+.pesquisa input{
+	height: 40px;
+	width: 450px;
+	padding-left: 20px;
+	margin-bottom: 20px;
+	border-style: none;
+	border:1px solid #fff;
+	border-radius: 15px;
+	color:#fff;
+	background: transparent;
+}
+.botao{
+	display: flex;
+	margin: auto;
+	width: 150px;
+	height: 50px;
+}
+.botao input{
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	width: 120px;
+	height: 30px;
+}
+::-webkit-input-placeholder {
+   padding: 10px;
+	 color:#fff;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   padding: 10px;
+	 color:#fff;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   padding: 10px;
+	 color:#fff;
+}
+
+:-ms-input-placeholder {
+   padding: 10px;
+	 color:#fff;
+}
+.resultado{
+	margin:auto;
+	padding: 15px;
+	margin-top:15px;
+	width: 70%;
+	background-color: #707070;
+	font-family: arial;
+}
+.resultado_area{
+	margin: auto;
+	padding-bottom: 30px;
+	width: 90%;
+	padding:0 20 0 20;
+}
+/*.resultado_int{
+	display: flex;
+	justify-content: center;
+  padding-left: 40px;
+  padding-top: 30px;
+  padding-right: 40px;
+	margin: auto;
+	width: 600px;
+	height: 300px;
+	background-color: #fff;
+	font-family: arial;
+}*/

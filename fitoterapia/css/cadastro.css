@@ -1,0 +1,94 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+ul, li, ol{
+	list-style: none;
+}
+form{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+	color:#fff;
+}
+.container{
+	width: 100%;
+	height: 80vh;
+}
+.menu{
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+	background-color: #191919;
+	color:#fff;
+	font-family: Arial;
+	font-size: 20px;
+}
+.menu ul{
+	display: flex;
+}
+.menu li{
+	margin-right: 40px;
+	color:#fff;
+}
+.menu a{
+
+}
+.cadastro_area{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+	height: 100vh;
+	background-color: #191919;
+}
+.cad{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 400px;
+	height: 300px;
+	background-color: #fff;
+}
+.cadastro{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-around;
+	width: 100%;
+	height: 60vh;
+	background-color: #404040;
+}
+.nome_planta{
+	height: 40px;
+	text-align: center;
+	display: flex;
+	font-family: Arial;
+	font-size: 25px;
+	line-height: 40px;
+}
+.descricao{
+	height: 40px;
+	text-align: center;
+	display: flex;
+	font-family: Arial;
+	font-size: 25px;
+	line-height: 40px;
+}
+.input input{
+	width: 280px;
+	height: 200px;
+}
+.enviar input{
+	margin-top:30px;
+	width: 100px;
+	height: 30px;
+}
+.input textarea{
+	width: 300px;
+	height: 200px;
+}

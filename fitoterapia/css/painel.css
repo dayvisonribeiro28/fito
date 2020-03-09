@@ -1,0 +1,79 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+	color:#fff;
+}
+.container{
+	width: 100%;
+	height: 100vh;
+	background-image: url("../images/bg.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.titulo{
+	display: flex;
+	align-items: center;
+	height: 80px;
+}
+.titulo_int{
+	margin:auto;
+	width: 500px;
+	height: 60px;
+	background-color: #191919;
+	color:#fff;
+	font-family: Arial;
+	font-size: 50px;
+	line-height: 60px;
+	text-align: center;
+}
+.painel{
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-around;
+}
+.cadastro{
+	display: flex;
+	flex-direction: column;
+	width: 250px;
+	height: 250px;
+	background-color: #191919;
+	color: #fff;
+	font-size: 30px;
+	font-family: Arial;
+}
+.pesquisa{
+	display: flex;
+	flex-direction: column;
+	width: 250px;
+	height: 250px;
+	background-color: #191919;
+	color: #fff;
+	font-size: 30px;
+	font-family: Arial;
+}
+.sair{
+	display: flex;
+	flex-direction: column;
+	width: 250px;
+	height: 250px;
+	background-color: #191919;
+	color: #fff;
+	font-size: 30px;
+	font-family: Arial;
+}
+.imagens{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.imagens img{
+	width: auto;
+	height: 150px;
+}
